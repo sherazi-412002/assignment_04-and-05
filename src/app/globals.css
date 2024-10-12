@@ -2,26 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+ 
+
+/* 
+.slide-fwd-center {
+	-webkit-animation: slide-fwd-center 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 10s infinite both;
+	        animation: slide-fwd-center 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 10s infinite both;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+@-webkit-keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  @keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
   }
-}
+   */
+
+
+  
