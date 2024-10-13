@@ -12,7 +12,7 @@ function page() {
     <div>
 
         <div className='p-12 flex flex-col gap-6'>
-            <div><Image src={mainImg} alt='name' height={1000} width={1000} className='h-96 w-[90%] ml-[5%] mt-32'/></div>
+            <div><Image src={mainImg} alt='name' height={1000} width={1000} className='h-72 w-[98%] md:h-96 md:w-[90%] ml-[1%] md:ml-[5%] mt-32'/></div>
             <div className='text-justify'>Oceanography is vital for understanding and preserving Earths oceans, which play a key role
             in regulating climate, supporting biodiversity, and sustaining human life. By studying ocean currents,
             temperature patterns, and the chemical composition of seawater, scientists can predict climate changes 
@@ -28,7 +28,7 @@ function page() {
 
 
 
-        <section className='flex flex-wrap sm:grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mt-6 w-[94%] gap-8 m-[5%] border-4 rounded-2xl p-5'>
+        <section className='flex flex-wrap sm:grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mt-6 w-[94%] gap-8 m-[3%] border-4 rounded-2xl p-5'>
 
 
          {/* card01 */}
@@ -38,8 +38,7 @@ function page() {
             <p className='text-justify'>Oceanography reveals the beauty and wonder of the oceans, exploring the vast, mysterious world beneath the waves. 
                 It uncovers the intricate patterns of ocean currents, the vibrant ecosystems that thrive in coral reefs, and the fascinating creatures that
                  live in the deep sea. Through the study of oceanography, we gain a deeper appreciation for how the ocean shapes our climate, sustains life,
-                  and provides endless resources. It shows us the delicate balance between marine life and the environment, inspiring efforts to protect these
-                   ecosystems for future generations. The oceans vastness and complexity remind us of natures beauty and our connection to it.</p><br/>
+                  and provides endless resources.</p><br/>
         </div>
 
 
@@ -51,8 +50,7 @@ function page() {
             Shores are the magical meeting point between land and sea, where waves gently lap or crash dramatically against the coast, creating a dynamic and 
             ever-changing environment. They serve as vital habitats for a variety of plants and animals, from delicate dune grasses to seabirds and crabs. 
             Shores are also places of beauty and serenity, where people come to relax, explore, and connect with nature. Beyond their beauty, shores play an
-             important role in protecting inland areas from storms and erosion, acting as a buffer between the ocean and the land. Whether rocky, sandy, or 
-             covered in pebbles, shores reflect the powerful forces of nature and the delicate balance between earth and sea</p><br/>
+             important role in protecting inland areas from storms and erosion.</p><br/>
         </div>
 
 
@@ -63,9 +61,7 @@ function page() {
             <p className='text-justify'>The fauna of the oceans is incredibly diverse, ranging from tiny plankton to the largest animal on Earth, the blue whale.
                  Oceans are home to a vast array of creatures, including fish, marine mammals like dolphins and seals, and countless species of invertebrates like 
                  jellyfish, starfish, and octopuses. Coral reefs teem with colorful fish and sea creatures, while the deep sea hosts mysterious, bioluminescent 
-                 organisms that thrive in darkness. Marine animals have adapted to their environments in fascinating ways, from the sleek bodies of sharks built 
-                 for speed to the filter-feeding systems of baleen whales. This diverse marine life plays a crucial role in maintaining the health of ocean ecosystems,
-                  contributing to nutrient cycles and the food chain, and supporting human life through fishing and other resources..</p><br/>
+                 organisms that thrive in darkness.</p><br/>
         </div>
 
 

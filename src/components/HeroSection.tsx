@@ -16,7 +16,7 @@ function HeroSection() {
         </div>
 
         <div>
-        <Image src={image} alt='image' height={1000} width={1000} className='h-[400px] md:w-[200rem] md:mr-5 w-[90%]'/>
+        <Image src={image} alt='image' height={1000} width={1000} className='h-[400px] md:w-[200rem] ml-[5%] md:ml-[0%] md:mr-[5%] w-[90%]'/>
         </div> 
 
     </div>

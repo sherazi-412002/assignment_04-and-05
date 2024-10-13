@@ -12,10 +12,10 @@ import Link from 'next/link'
 function Blogs() {
   return ( 
 
-    <section className='flex flex-wrap sm:grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mt-6 w-[94%] gap-8 m-[5%] border-4 rounded-2xl p-5'>
+    <section className='flex flex-wrap sm:grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mt-6 w-[94%] gap-8 m-[3%] border-4 rounded-2xl p-5'>
         
         {/* card01 */}
-        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[90%] lg:w-[450px] md:ml-[5%] lg:ml-0 border-2 border-gray-600 rounded-2xl
           p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={oceanImg} alt='oceanoghraphyImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <h2 className='text-3xl flex justify-center items-center font-serif font-bold m-4'>Oceanography</h2>
@@ -29,7 +29,7 @@ function Blogs() {
 
 
         {/* card02 */}
-        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[90%] lg:w-[450px] md:ml-[5%] lg:ml-0 border-2 border-gray-600 rounded-2xl
           p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={wildImg} alt='wildlifeImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <h2 className='text-3xl flex justify-center items-center font-serif font-bold m-4'>Wildlife</h2>
@@ -42,7 +42,7 @@ function Blogs() {
 
 
         {/* card03 */}
-        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[90%] lg:w-[450px] md:ml-[5%] lg:ml-0 border-2 border-gray-600 rounded-2xl
           p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={entoImg} alt='entomologyImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <h2 className='text-3xl flex justify-center items-center font-serif font-bold m-4'>Entomology</h2>
@@ -55,7 +55,7 @@ function Blogs() {
 
 
         {/* card04 */}
-        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[90%] lg:w-[450px] md:ml-[5%] lg:ml-0 border-2 border-gray-600 rounded-2xl
           p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={evoImg} alt='evolutionImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <h2 className='text-3xl flex justify-center items-center font-serif font-bold m-4'>Evolution</h2>
@@ -68,28 +68,26 @@ function Blogs() {
 
 
         {/* card05 */}
-        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[90%] lg:w-[450px] md:ml-[5%] lg:ml-0 border-2 border-gray-600 rounded-2xl
           p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={physImg} alt='physiologyImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <h2 className='text-3xl flex justify-center items-center font-serif font-bold m-4'>Physiology</h2>
             <p className='text-justify'>Physiology is the branch of biology that studies the functions and processes of living organisms, 
             including their organs, tissues, cells, and biological systems. It explores how organisms carry out 
-            vital functions like breathing, digestion, circulation, and reproduction, as well as how they respond
-            to external stimuli and maintain homeostasis (internal balance).</p><br/>
+            vital functions like breathing, digestion, circulation, and reproduction.</p><br/>
             <Link href={'/physiology'}><button className='border-gray-600 border-2 rounded-xl p-2 hover:bg-yellow-600 hover:shadow-yellow-700 hover:shadow-lg 
              font-bold hover:delay-200 hover:duration-500 hover:text-white'>Read More</button></Link>
         </div>
 
 
         {/* card06 */}
-        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[90%] lg:w-[450px] md:ml-[5%] lg:ml-0 border-2 border-gray-600 rounded-2xl
           p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={paraImg} alt='parasitologyImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <h2 className='text-3xl flex justify-center items-center font-serif font-bold m-4'>Parasitology</h2>
             <p className='text-justify'>The field of parasitology also explores parasitic diseases that affect humans, animals, and plants,
              as well as methods for diagnosing, treating, and preventing these infections. It is important in 
-             public health, veterinary medicine, agriculture, and ecology due to the significant impact parasites
-             can have on populations and ecosystems.</p><br/>
+             public health, veterinary medicine.</p><br/>
              <Link href={'/parasitology'}><button className='border-gray-600 border-2 rounded-xl p-2 hover:bg-yellow-600 hover:shadow-yellow-700 hover:shadow-lg 
              font-bold hover:delay-200 hover:duration-500 hover:text-white'>Read More</button></Link>
         </div>

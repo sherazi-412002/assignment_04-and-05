@@ -12,7 +12,7 @@ function page() {
     <div>
 
         <div className='p-12 flex flex-col gap-6'>
-            <div><Image src={mainImg} alt='name' height={1000} width={1000} className='h-96 w-[90%] ml-[5%] mt-32'/></div>
+            <div><Image src={mainImg} alt='name' height={1000} width={1000} className='h-72 w-[98%] md:h-96 md:w-[90%] ml-[1%] md:ml-[5%] mt-32'/></div>
             <div className='text-justify'>Evolution is the process by which organisms change over time through variations in 
             their genetic makeup, leading to the development of new species and adaptations to their environment. This gradual 
             change occurs over generations due to mechanisms such as natural selection, genetic drift, mutations, and gene flow. 
@@ -24,7 +24,7 @@ function page() {
 
 
 
-        <section className='flex flex-wrap sm:grid grid-cols-1 lg:grid-cols-3 mt-6 w-[94%] gap-8 m-[5%] border-4 rounded-2xl p-5'>
+        <section className='flex flex-wrap sm:grid grid-cols-1 lg:grid-cols-3 mt-6 w-[94%] gap-8 m-[3%] border-4 rounded-2xl p-5'>
 
 
          {/* card01 */}
@@ -34,8 +34,7 @@ function page() {
             <p className='text-justify'>The history of the theory of evolution dates back to ancient times, but it gained scientific foundation in the 
                 19th century. Early Greek philosophers, such as Anaximander, proposed that life originated from non-living matter and evolved over time. However, it 
                 wasnt until the 18th century that naturalists like Carl Linnaeus and Georges-Louis Leclerc, Comte de Buffon, began systematically classifying species 
-                and suggesting ideas of change. Jean-Baptiste Lamarck, in the early 1800s, proposed that organisms could pass on traits acquired during their lifetimes, 
-                but his ideas were later refuted.</p><br/>
+                and suggesting ideas of change.</p><br/>
         </div>
 
 
@@ -68,10 +67,6 @@ function page() {
 
 
         </section>
-
-
-
-
 
     </div>
   )

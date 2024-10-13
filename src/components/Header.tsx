@@ -8,9 +8,9 @@ function Header() {
   return (
     <div>
 
-       <header className='flex justify-between items-center h-28 p-1 left-0 right-0 top-0 bg-charcoal w-[90%] rounded-full mt-2 ml-[5%] fixed'>
+       <header className='flex justify-between items-center h-24 md:h-28 p-1 left-0 right-0 top-0 bg-charcoal w-[100%] md:w-[90%] md:rounded-full mt-2 md:ml-[5%] fixed'>
         <div>
-            <Image src={logo} alt='Logo' width={500} height={500} className='h-24 w-24 ml-10 sm:m-16 md:ml-20 lg:ml-24 rounded-full'/>
+            <Image src={logo} alt='Logo' width={500} height={500} className=' h-20 md:h-24 w-20 md:w-24 ml-2 sm:m-16 md:ml-20 lg:ml-24 rounded-full'/>
              
         </div>
 
@@ -22,7 +22,7 @@ function Header() {
                 <Link href={'/contact'}><li className=' hover:text-green-400'>Contact</li></Link>
             </ul>
         </div>
-        <div className='md:hidden mr-10'>
+        <div className='md:hidden mr-2'>
            <GiHamburgerMenu color='gray' size={50} width={500} height={500}/>
         </div>
         
