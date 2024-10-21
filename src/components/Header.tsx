@@ -36,7 +36,7 @@ function Header() {
         <div className='md:hidden flex items-center mr-3'>
 
         <div className='' onClick={toggleNavbar}>
-              {isClick?(<div><RxCross2 size={40}  color='white'/></div>):(<div><GiHamburgerMenu size={40} color='white ' /></div>)}
+              {isClick?(<div><RxCross2 size={40}  color='white'/></div>):(<div><GiHamburgerMenu size={40} color='white' /></div>)}
     
         </div >
         </div>
@@ -49,7 +49,7 @@ function Header() {
             <ul className='flex flex-col text-right pr-4 gap-3 pb-6 pt-6  bg-black text-white text-2xl hover:duration-300 hover:delay-300'>
                 <Link href={'/'}><li className='hover:text-black hover:rounded-lg hover:bg-white hover:p-2 hover:duration-300 hover:delay-300 ' >Home</li></Link>
                 <Link href={'/about'}><li className='hover:text-black hover:rounded-lg hover:bg-white hover:p-2 hover:duration-300 hover:delay-300 ' >About</li></Link>
-                <Link href={'/projects'}><li className='hover:text-black hover:rounded-lg hover:bg-white hover:p-2  hover:duration-300 hover:delay-300' >Projects</li></Link>
+                <Link href={'/blogs'}><li className='hover:text-black hover:rounded-lg hover:bg-white hover:p-2  hover:duration-300 hover:delay-300' >Blogs</li></Link>
                 <Link href={'/contact'}><li className='hover:text-black hover:rounded-lg hover:bg-white hover:p-2  hover:duration-300 hover:delay-300' >Contact</li></Link>
                 </ul>
             </div>
