@@ -28,8 +28,8 @@ function page() {
 
 
          {/* card01 */}
-         <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
-          p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
+         <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+          p-3 mb-12 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={Img02} alt='oceanoghraphyImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <p className='text-justify'>The nervous system is a complex network of cells and tissues that coordinates and regulates the functions 
               of the body by transmitting signals between different parts. It is responsible for processing sensory information, controlling 
@@ -40,8 +40,8 @@ function page() {
 
 
         {/* card02 */}
-        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
-          p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
+        <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+          p-3 mb-12 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={Img03} alt='wildlifeImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <p className='text-justify'>DNA (deoxyribonucleic acid) is the molecular blueprint of life, playing a critical role in the physiology 
               of all living organisms. It carries the genetic information necessary for the growth, development, functioning, and reproduction of 
@@ -51,8 +51,8 @@ function page() {
 
 
         {/* card03 */}
-        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
-          p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
+        <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+          p-3 mb-12 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={Img04} alt='entomologyImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <p className='text-justify'>A neuron is a specialized cell that serves as the fundamental building block of the nervous system, responsible 
               for transmitting and processing information throughout the body. Neurons are unique in their ability to generate and propagate electrical 
@@ -63,8 +63,8 @@ function page() {
 
 
 
-        <Link href={'/'}><button className='border-gray-600 border-2 p-2 w-24 rounded-xl  hover:bg-yellow-600 hover:shadow-yellow-700 hover:shadow-lg 
-             font-bold hover:delay-200 hover:duration-500 hover:text-white'>Back</button></Link>
+        <Link href={'/'}><button className='border-gray-600 border-2 p-2 w-24 rounded-xl  bg-yellow-600 hover:shadow-yellow-700 hover:shadow-lg 
+             font-bold hover:delay-200 hover:duration-500 hover:text-black hover:bg-yellow-500'>Back</button></Link>
 
 
         </section>

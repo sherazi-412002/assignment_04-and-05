@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 function Footer() {
   return (
-    <div className='bg-charcoal h-auto gap-5 md:gap-0 md:h-76 lg:h-52 flex bottom-0 flex-col md:flex-row justify-between p-4'>
+    <div className='bg-black h-auto gap-5 md:gap-0 md:h-76 lg:h-52 flex bottom-0 flex-col md:flex-row justify-between p-4'>
         <div className='mx-5 md:mx-16'>
             <span className='text-3xl text-white flex justify-center '>Links</span><br />
             <div className='md:hidden'>

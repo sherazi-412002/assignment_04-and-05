@@ -29,8 +29,8 @@ function page() {
 
 
          {/* card01 */}
-         <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
-          p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
+         <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+          p-3 mb-12 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={Img02} alt='oceanoghraphyImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <p className='text-justify'>Ectoparasites are organisms that live on the surface of their host, feeding on their blood, tissues, or 
               bodily fluids without penetrating the hosts skin. Common examples include fleas, ticks, lice, and mites. These parasites can be 
@@ -40,8 +40,8 @@ function page() {
 
 
         {/* card02 */}
-        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
-          p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
+        <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+          p-3 mb-12 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={Img03} alt='wildlifeImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <p className='text-justify'>Endoparasites are organisms that live within the bodies of their hosts, often residing in organs, tissues, 
             or cells. These parasites derive nutrients and energy from their hosts, typically causing harm in the process. Common examples of 
@@ -51,8 +51,8 @@ function page() {
 
 
         {/* card03 */}
-        <div className='h-[610px] sm:h-[570px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
-          p-3 mb-12 bg-yellow-200 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
+        <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+          p-3 mb-12 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={Img04} alt='entomologyImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <p className='text-justify'>Aquatic parasites are organisms that live in or on the bodies of aquatic hosts, which can include fish, 
               amphibians, marine mammals, and even some aquatic plants. These parasites can be found in freshwater, brackish, and marine 
@@ -63,8 +63,8 @@ function page() {
 
 
 
-        <Link href={'/'}><button className='border-gray-600 border-2 p-2 w-24 rounded-xl  hover:bg-yellow-600 hover:shadow-yellow-700 hover:shadow-lg 
-             font-bold hover:delay-200 hover:duration-500 hover:text-white'>Back</button></Link>
+        <Link href={'/'}><button className='border-gray-600 border-2 p-2 w-24 rounded-xl  bg-yellow-600 hover:shadow-yellow-700 hover:shadow-lg 
+             font-bold hover:delay-200 hover:duration-500 hover:text-black hover:bg-yellow-500'>Back</button></Link>
 
 
         </section>
