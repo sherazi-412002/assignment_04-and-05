@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <div className='w-[100%] mt-36 flex sm:flex-row gap-10 lg:gap-10 flex-col  justify-center items-center'>
         <div className='md:w-[45%] w-[90%]'>
-        <h1 className="text-4xl md:text-6xl  font-bold font-title">Zoology</h1><br />
+        <h1 className="text-5xl md:text-6xl  font-bold font-title">Zoology</h1><br />
         <p className=' sm:m-4 text-xl sm:text-2xl md:text-xl lg:text-2xl text-justify '>
         Zoology is the scientific study of animals, including their biology, behavior, structure,
         physiology, classification, and distribution. As a branch of biology, it explores a vast 
