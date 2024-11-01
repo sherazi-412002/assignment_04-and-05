@@ -11,9 +11,9 @@ function page() {
   return (
     <div>
 
-        <div className='p-12 flex flex-col gap-6'>
+        <div className='p-12 flex flex-col lg:flex-row lg:gap-10 gap-6'>
             <div><Image src={mainImg} alt='name' height={1000} width={1000} className='h-72 w-[98%] md:h-96 md:w-[90%] ml-[1%] md:ml-[5%] mt-32'/></div>
-            <div className='text-justify'>Parasitology is the branch of biology and medicine that focuses on the study of parasites, their hosts, 
+            <div className='text-justify lg:w-[50%] lg:justify-center lg:mt-32 md:text-xl text-lg'>Parasitology is the branch of biology and medicine that focuses on the study of parasites, their hosts, 
               and the relationships between them. Parasites are organisms that live on or within a host organism, deriving nutrients at the hosts 
               expense. This field encompasses a wide range of organisms, including protozoa, helminths (worms), and ectoparasites like fleas and 
               ticks. Parasitologists investigate the life cycles, biology, ecology, and evolution of these organisms, as well as their impacts on 
@@ -29,8 +29,8 @@ function page() {
 
 
          {/* card01 */}
-         <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
-          p-3 mb-12 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
+         <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] md:w-[80%] gap-4 lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+          p-3 mb-12 hover:bg-gray-100 hover:shadow-gray-500 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={Img02} alt='oceanoghraphyImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <p className='text-justify'>Ectoparasites are organisms that live on the surface of their host, feeding on their blood, tissues, or 
               bodily fluids without penetrating the hosts skin. Common examples include fleas, ticks, lice, and mites. These parasites can be 
@@ -40,8 +40,8 @@ function page() {
 
 
         {/* card02 */}
-        <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
-          p-3 mb-12 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
+        <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] gap-4 md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+          p-3 mb-12 hover:bg-gray-100 hover:shadow-gray-500 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={Img03} alt='wildlifeImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <p className='text-justify'>Endoparasites are organisms that live within the bodies of their hosts, often residing in organs, tissues, 
             or cells. These parasites derive nutrients and energy from their hosts, typically causing harm in the process. Common examples of 
@@ -51,8 +51,8 @@ function page() {
 
 
         {/* card03 */}
-        <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] md:w-[80%] lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
-          p-3 mb-12 hover:bg-yellow-100 hover:shadow-yellow-600 hover:shadow-xl hover:duration-500 hover:delay-200'>
+        <div className='h-[610px] sm:h-[570px] md:h-[490px] w-[450px] md:w-[80%] gap-4 lg:w-[450px] md:ml-[10%] lg:ml-0 border-2 border-gray-600 rounded-2xl
+          p-3 mb-12 hover:bg-gray-100 hover:shadow-gray-500 hover:shadow-xl hover:duration-500 hover:delay-200'>
             <div><Image src={Img04} alt='entomologyImg' width={1000} height={1000} className='h-[200px] w-full rounded-2xl'/></div>
             <p className='text-justify'>Aquatic parasites are organisms that live in or on the bodies of aquatic hosts, which can include fish, 
               amphibians, marine mammals, and even some aquatic plants. These parasites can be found in freshwater, brackish, and marine 
@@ -63,8 +63,8 @@ function page() {
 
 
 
-        <Link href={'/'}><button className='border-gray-600 border-2 p-2 w-24 rounded-xl  bg-yellow-600 hover:shadow-yellow-700 hover:shadow-lg 
-             font-bold hover:delay-200 hover:duration-500 hover:text-black hover:bg-yellow-500'>Back</button></Link>
+        <Link href={'/'}><button className='border-gray-600 border-2 p-2 w-24 rounded-xl  bg-gray-400 hover:shadow-gray-500 hover:shadow-lg 
+             font-bold hover:delay-200 hover:duration-500 hover:text-black hover:bg-gray-300'>Back</button></Link>
 
 
         </section>

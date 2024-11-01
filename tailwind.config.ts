@@ -13,6 +13,9 @@ const config: Config = {
         foreground: "var(--foreground)",
         charcoal: '#333333',
       },
+      fontFamily:{
+        title:['Rubik Wet Paint']
+      }
     },
   },
   plugins: [],
